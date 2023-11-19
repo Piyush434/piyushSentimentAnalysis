@@ -2,7 +2,7 @@ import streamlit as st
 import tensorflow as tf
 import keras
 from keras.preprocessing.text import Tokenizer
-from keras_preprocessing.sequence import pad_sequences
+from keras.preprocessing.sequence import pad_sequences
 import pickle
 import numpy as np
 
