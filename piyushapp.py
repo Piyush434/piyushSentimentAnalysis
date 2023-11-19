@@ -17,6 +17,7 @@ st.header('Hello, From Team CodeMantra')
 st.header('Add the tweet or message here, we will analyze for you !!!')
 
 msg_tweet = st.text_input('Paste text')
+st.header(type(msg_tweet))
 msg_tweet = tokenizer.texts_to_sequences(msg_tweet)
 msg_tweet = pad_sequences(msg_tweet, maxlen=28, dtype='int32', value=0)
 
