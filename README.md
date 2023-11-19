@@ -1,3 +1,3 @@
-# piyushSentimentAnalysis
+# SentimentAnalysis
 # hackathon
 # team code mantra
