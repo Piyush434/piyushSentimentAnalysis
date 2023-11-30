@@ -31,7 +31,7 @@ if st.button('Analyze'):
     result=np.argmax(sentiment_here)
 
     st.divider()
-    st.image('twitter-logo.png')
+    st.image('twitter-logo.png', height=10%, width=10%)
     st.text('is')
     if result == 0:
         st.header('Negative')
