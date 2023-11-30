@@ -35,7 +35,7 @@ if st.button('Analyze'):
     image2 = image2.resize((50,50))
     st.image(image2)
     if result == 0:
-        st.subheader('Twit is :blue[Negative]n:worried: :x:')
+        st.subheader('Twit is :blue[Negative] :worried: :x:')
     else:
         st.subheader('Twit is :blue[Positive] :smiley: :shamrock:')
     st.divider()
