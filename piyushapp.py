@@ -34,3 +34,8 @@ if st.button('Analyze'):
         st.header('Negative')
     else:
         st.header('Positive')
+
+st.header('Team Member: ')
+st.text('05 - Piyush Bhondave')
+st.text('66 - Rutuja Mahajan')
+st.text('78 - Akansha Madamanchi')
