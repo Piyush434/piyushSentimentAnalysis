@@ -32,13 +32,13 @@ if st.button('Analyze'):
 
     st.divider()
     image2 = Image.open('twitter-logo.png')
-    image2 = image2.resize((100,100))
+    image2 = image2.resize((50,50))
     st.image(image2)
     st.text('is')
     if result == 0:
-        st.header('Negative')
+        st.subheader('Twit is :blue[Negative] :smiley:')
     else:
-        st.header('Positive')
+        st.subheader('Twit is :blue[Positive] :smiley:')
     st.divider()
     st.success('Twit Succefully Analyzed!', icon="✅")
 
