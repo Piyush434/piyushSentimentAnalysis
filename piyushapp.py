@@ -31,12 +31,14 @@ if st.button('Analyze'):
     result=np.argmax(sentiment_here)
 
     st.divider()
+    st.image('twitter-logo.png')
+    st.text('is')
     if result == 0:
         st.header('Negative')
     else:
         st.header('Positive')
     st.divider()
-    st.success('This is a success message!', icon="✅")
+    st.success('Twit Succefully Analyzed!', icon="✅")
 
 st.header('Team Member: ')
 st.text('05 - Piyush Bhondave')
