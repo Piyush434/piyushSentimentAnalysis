@@ -30,10 +30,12 @@ if st.button('Analyze'):
     sentiment_here = model_here.predict(msg_tweet,batch_size=1,verbose = 2)[0]
     result=np.argmax(sentiment_here)
 
+    st.divider()
     if result == 0:
         st.header('Negative')
     else:
         st.header('Positive')
+    st.divider()
 
 st.header('Team Member: ')
 st.text('05 - Piyush Bhondave')
