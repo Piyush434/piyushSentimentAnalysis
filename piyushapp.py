@@ -36,6 +36,7 @@ if st.button('Analyze'):
     else:
         st.header('Positive')
     st.divider()
+    st.success('This is a success message!', icon="✅")
 
 st.header('Team Member: ')
 st.text('05 - Piyush Bhondave')
