@@ -3,6 +3,7 @@ import tensorflow as tf
 import keras
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
+from PIL import Image
 import pickle
 import numpy as np
 
@@ -13,7 +14,9 @@ max_features = 2000
 tokenizer = Tokenizer(num_words=max_features, split=' ')
 tokenizer.fit_on_texts(data_here['text'].values)
 
-st.header('Hello, From Team CodeMantra')
+image = Image.open('mitaoe-logo.jpg')
+st.image(image)
+st.header('Hello!! from - Twitter Sentix - MITAOE')
 st.header('Add the tweet or message here, we will analyze for you !!!')
 
 msg_tweet = st.text_input('Paste text')
